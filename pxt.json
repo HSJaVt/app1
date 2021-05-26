@@ -1,0 +1,23 @@
+{
+    "name": "紅外線測溫",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "KSRobot_MLX90614": "github:kaise-ksrobot/pxt-ksrobot-mlx90614#a751325d18ab568b2aab4aabc4432258a96857d3",
+        "microphone": "*",
+        "bluetooth": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
